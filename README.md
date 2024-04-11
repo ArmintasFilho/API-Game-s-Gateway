@@ -26,19 +26,15 @@
 
 ## Como pegar as informações da API
 
-Para acessar a rota padrão ou raiz da API (Application Programming Interface), deve-se ir na seguinte URL: 
+Para acessar a rota padrão ou raiz da sua API (Application Programming Interface), deve-se ir na seguinte URL:  http://localhost:3000
 
-Para acessar as informações da API (Application Programming Interface), acrescente:
+Para acessar as informações da sua API (Application Programming Interface), acrescente: 
 
-- Informações dos produtos e imagens de forma de pagamento:
-  - /prod 
-  - /pag 
-- Acessar pela ID do produto:
-  - /prod?id= 
-- Pesquisar o nome de um determinado produto:
-  - /prod?nome= 
-- Filtrar por categoria um determinado produto:
-  - /prod?categoria= 
+  - /prod http://localhost:3000/prod
+  - /pag http://localhost:3000/pag
+  - /prod?id= http://localhost:3000/prod?id=1
+  - /prod?nome= http://localhost:3000/prod?nome=mouse
+  - /prod?categoria= http://localhost:3000/prod?categoria=teclado
 
 ## O que tem nesse projeto
 
